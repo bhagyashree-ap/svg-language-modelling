@@ -12,21 +12,22 @@ Part 1: run locally to preprocess SVGs, train tokenizer and produce tokenized da
 Parts 2, 3, 4: run on Google Colab using the Drive folder produced by Part 1.
 
 Folder Structure:
+
 svg_project_root/
-├─ part1_local/
-│  ├─ part4-dataset.py
-│  ├─ part1_prepare_data.py
-│  ├─ svg_data_outputs/          
-│     ├─ svg_tokenizer.json
-│     ├─ train_tokens.pt
-│     ├─ val_tokens.pt
-│     ├─ test_tokens.pt
-│     └─ metadata.json
-│   ├─ #same as above for svg_data_part4 folder
-  
-├─ Colab Notebooks/
-│  ├─ part2.ipynb                    # LR sweep, tiny models (SP)
-│  ├─ part3.ipynb                    # scaling experiments, µP runs
-│  └─ part4.ipynb                    # best model training, generation, evaluation
+├── part1_local/
+│   ├── part4-dataset.py
+│   ├── part1_prepare_data.py
+│   ├── svg_data_outputs/
+│   │   ├── svg_tokenizer.json
+│   │   ├── train_tokens.pt
+│   │   ├── val_tokens.pt
+│   │   ├── test_tokens.pt
+│   │   └── metadata.json
+│   └── svg_data_part4/   # same structure as svg_data_outputs
 │
-└─ README.md                        
+├── Colab Notebooks/
+│   ├── part2.ipynb   # LR sweep, tiny models (SP)
+│   ├── part3.ipynb   # scaling experiments, µP runs
+│   └── part4.ipynb   # best model training, generation, evaluation
+│
+└── README.md
