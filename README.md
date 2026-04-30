@@ -1,0 +1,32 @@
+### Scaling Laws for SVG Language Models: µP Optimized Transformer Training and Vector Graphic Generation
+
+Goal: Train transformer models to generate SVGs, evaluate generation quality and analyze scaling and µP vs SP behavior.
+
+High level flow:
+- Prepare and clean raw SVGs locally (Part 1).
+- Train small experiments and scaling runs on Colab (Parts 2 and 3).
+- Train the best model, generate samples, compute metrics, and save artifacts on Colab (Part 4).
+
+Workflow:
+Part 1: run locally to preprocess SVGs, train tokenizer and produce tokenized datasets.
+Parts 2, 3, 4: run on Google Colab using the Drive folder produced by Part 1.
+
+Folder Structure:
+svg_project_root/
+├─ part1_local/
+│  ├─ part4-dataset.py
+│  ├─ part1_prepare_data.py
+│  ├─ svg_data_outputs/          
+│     ├─ svg_tokenizer.json
+│     ├─ train_tokens.pt
+│     ├─ val_tokens.pt
+│     ├─ test_tokens.pt
+│     └─ metadata.json
+│   ├─ #same as above for svg_data_part4 folder
+  
+├─ Colab Notebooks/
+│  ├─ part2.ipynb                    # LR sweep, tiny models (SP)
+│  ├─ part3.ipynb                    # scaling experiments, µP runs
+│  └─ part4.ipynb                    # best model training, generation, evaluation
+│
+└─ README.md                        
