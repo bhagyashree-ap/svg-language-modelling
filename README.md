@@ -1,6 +1,7 @@
-### Scaling Laws for SVG Language Models: µP Optimized Transformer Training and Vector Graphic Generation
+Scaling Laws for SVG Language Models: µP Optimized Transformer Training and Vector Graphic Generation
 
-Goal: Train transformer models to generate SVGs, evaluate generation quality and analyze scaling and µP vs SP behavior.
+Goal:
+Train transformer models to generate SVGs, evaluate generation quality, and analyze scaling and µP vs SP behavior.
 
 High level flow:
 - Prepare and clean raw SVGs locally (Part 1).
@@ -8,8 +9,8 @@ High level flow:
 - Train the best model, generate samples, compute metrics, and save artifacts on Colab (Part 4).
 
 Workflow:
-Part 1: run locally to preprocess SVGs, train tokenizer and produce tokenized datasets.
-Parts 2, 3, 4: run on Google Colab using the Drive folder produced by Part 1.
+Part 1: Run locally to preprocess SVGs, train tokenizer, and produce tokenized datasets.  
+Parts 2, 3, 4: Run on Google Colab using the Drive folder produced by Part 1.
 
 Folder Structure:
 
