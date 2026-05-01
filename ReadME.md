@@ -15,20 +15,20 @@ Parts 2, 3, 4: .ipynb files run on Google Colab using the Drive folder produced 
 Folder Structure:
 
 svg_project_root/<br/>
-├── part1_local/
-│   ├── part4-dataset.py
-│   ├── part1_prepare_data.py
-│   ├── svg_data_outputs/
-│   │   ├── svg_tokenizer.json
-│   │   ├── train_tokens.pt
-│   │   ├── val_tokens.pt
-│   │   ├── test_tokens.pt
-│   │   └── metadata.json
-│   └── svg_data_part4/   # same structure as svg_data_outputs
-│
-├── Colab Notebooks/
-│   ├── part2.ipynb   # LR sweep, tiny models (SP)
-│   ├── part3.ipynb   # scaling experiments, µP runs
-│   └── part4.ipynb   # best model training, generation, evaluation
-│
+├── part1_local/<br/>
+│   ├── part4-dataset.py<br/>
+│   ├── part1_prepare_data.py<br/>
+│   ├── svg_data_outputs/<br/>
+│   │   ├── svg_tokenizer.json<br/>
+│   │   ├── train_tokens.pt<br/>
+│   │   ├── val_tokens.pt<br/>
+│   │   ├── test_tokens.pt<br/>
+│   │   └── metadata.json<br/>
+│   └── svg_data_part4/   # same structure as svg_data_outputs<br/>
+│<br/>
+├── Colab Notebooks/<br/>
+│   ├── part2.ipynb   # LR sweep, tiny models (SP)<br/>
+│   ├── part3.ipynb   # scaling experiments, µP runs<br/>
+│   └── part4.ipynb   # best model training, generation, evaluation<br/>
+
 └── README.md
