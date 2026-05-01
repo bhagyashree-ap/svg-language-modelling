@@ -15,7 +15,7 @@ Parts 2, 3, 4: .ipynb files run on Google Colab using the Drive folder produced 
 Folder Structure:
 
 svg_project_root/<br/>
-├── part1_local/<br/>
+|-- part1_local/<br/>
 │   ├── part4-dataset.py<br/>
 │   ├── part1_prepare_data.py<br/>
 │   ├── svg_data_outputs/<br/>
