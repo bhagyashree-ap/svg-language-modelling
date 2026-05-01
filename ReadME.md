@@ -8,9 +8,9 @@ Train transformer models to generate SVGs, evaluate generation quality, and anal
 - Train small experiments and scaling runs on Colab (Parts 2 and 3).
 - Train the best model, generate samples, compute metrics, and save artifacts on Colab (Part 4).
 
-## Workflow:</br>
+## Workflow:
 ```
-Part 1: .py file run locally to preprocess SVGs, train tokenizer and produce tokenized datasets.  </br>
+Part 1: .py file run locally to preprocess SVGs, train tokenizer and produce tokenized datasets.  
 Parts 2, 3, 4: .ipynb files run on Google Colab using the Drive folder produced by Part 1.
 ```
 
