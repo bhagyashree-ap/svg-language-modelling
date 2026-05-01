@@ -31,6 +31,8 @@ svg_project_root/
 │   ├── part2.ipynb   # LR sweep, tiny models (SP)
 │   ├── part3.ipynb   # scaling experiments, µP runs
 │   └── part4.ipynb   # best model training, generation, evaluation
-```
 
 └── README.md
+```
+
+
