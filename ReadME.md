@@ -16,19 +16,19 @@ Folder Structure:
 
 svg_project_root/<br/>
 |-- part1_local/<br/>
-│   ├── part4-dataset.py<br/>
-│   ├── part1_prepare_data.py<br/>
-│   ├── svg_data_outputs/<br/>
-│   │   ├── svg_tokenizer.json<br/>
-│   │   ├── train_tokens.pt<br/>
-│   │   ├── val_tokens.pt<br/>
-│   │   ├── test_tokens.pt<br/>
-│   │   └── metadata.json<br/>
-│   └── svg_data_part4/   # same structure as svg_data_outputs<br/>
-│<br/>
-├── Colab Notebooks/<br/>
-│   ├── part2.ipynb   # LR sweep, tiny models (SP)<br/>
-│   ├── part3.ipynb   # scaling experiments, µP runs<br/>
-│   └── part4.ipynb   # best model training, generation, evaluation<br/>
+|   |-- part4-dataset.py<br/>
+|   |-- part1_prepare_data.py<br/>
+|   |-- svg_data_outputs/<br/>
+|   │   |-- svg_tokenizer.json<br/>
+|   │   |-- train_tokens.pt<br/>
+|   │   |-- val_tokens.pt<br/>
+|   │   |-- test_tokens.pt<br/>
+|   │   └── metadata.json<br/>
+|   └── svg_data_part4/   # same structure as svg_data_outputs<br/>
+|<br/>
+|-- Colab Notebooks/<br/>
+|   |-- part2.ipynb   # LR sweep, tiny models (SP)<br/>
+|   |-- part3.ipynb   # scaling experiments, µP runs<br/>
+|   |-- part4.ipynb   # best model training, generation, evaluation<br/>
 
 └── README.md
